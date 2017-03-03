@@ -11,11 +11,16 @@ import UIKit
 class DataViewController: UIViewController {
 
     @IBOutlet weak var dataLabel: UILabel!
+    @IBOutlet weak var lblcontenido: UILabel!
+    
     var dataObject: String = ""
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.dataLabel.text = dataObject
+        self.lblcontenido.text = "Contenido de la " + dataObject
         // Do any additional setup after loading the view, typically from a nib.
     }
 

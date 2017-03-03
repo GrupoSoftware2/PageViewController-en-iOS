@@ -10,7 +10,6 @@
 		FBB914791E68EC7000FA5835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB914781E68EC7000FA5835 /* AppDelegate.swift */; };
 		FBB9147B1E68EC7000FA5835 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9147A1E68EC7000FA5835 /* RootViewController.swift */; };
 		FBB9147D1E68EC7000FA5835 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9147C1E68EC7000FA5835 /* DataViewController.swift */; };
-		FBB9147F1E68EC7000FA5835 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9147E1E68EC7000FA5835 /* ModelController.swift */; };
 		FBB914821E68EC7000FA5835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB914801E68EC7000FA5835 /* Main.storyboard */; };
 		FBB914841E68EC7000FA5835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB914831E68EC7000FA5835 /* Assets.xcassets */; };
 		FBB914871E68EC7000FA5835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB914851E68EC7000FA5835 /* LaunchScreen.storyboard */; };
@@ -21,7 +20,6 @@
 		FBB914781E68EC7000FA5835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBB9147A1E68EC7000FA5835 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		FBB9147C1E68EC7000FA5835 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		FBB9147E1E68EC7000FA5835 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		FBB914811E68EC7000FA5835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBB914831E68EC7000FA5835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBB914861E68EC7000FA5835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 				FBB914781E68EC7000FA5835 /* AppDelegate.swift */,
 				FBB9147A1E68EC7000FA5835 /* RootViewController.swift */,
 				FBB9147C1E68EC7000FA5835 /* DataViewController.swift */,
-				FBB9147E1E68EC7000FA5835 /* ModelController.swift */,
 				FBB914801E68EC7000FA5835 /* Main.storyboard */,
 				FBB914831E68EC7000FA5835 /* Assets.xcassets */,
 				FBB914851E68EC7000FA5835 /* LaunchScreen.storyboard */,
@@ -143,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB9147B1E68EC7000FA5835 /* RootViewController.swift in Sources */,
-				FBB9147F1E68EC7000FA5835 /* ModelController.swift in Sources */,
 				FBB9147D1E68EC7000FA5835 /* DataViewController.swift in Sources */,
 				FBB914791E68EC7000FA5835 /* AppDelegate.swift in Sources */,
 			);
@@ -307,6 +303,7 @@
 				FBB9148D1E68EC7000FA5835 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
